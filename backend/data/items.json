@@ -1,0 +1,425 @@
+[
+  {
+    "id": "onion",
+    "name": "Onion",
+    "category": "Vegetables",
+    "unit": "kg",
+    "basePrice": 30,
+    "sellingPrice": 40,
+    "nameTe": "ఉల్లిపాయ"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "category": "Vegetables",
+    "unit": "kg",
+    "basePrice": 22,
+    "sellingPrice": 30,
+    "nameTe": "బంగాళాదుంప"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "category": "Vegetables",
+    "unit": "kg",
+    "basePrice": 25,
+    "sellingPrice": 35,
+    "nameTe": "టమాటా"
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "category": "Vegetables",
+    "unit": "kg",
+    "basePrice": 80,
+    "sellingPrice": 100,
+    "nameTe": "అల్లం"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "category": "Vegetables",
+    "unit": "kg",
+    "basePrice": 140,
+    "sellingPrice": 170,
+    "nameTe": "వెల్లుల్లి"
+  },
+  {
+    "id": "rice-sona",
+    "name": "Rice — Sona Masoori",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 54,
+    "sellingPrice": 62,
+    "nameTe": "బియ్యం — సోనా మసూరి"
+  },
+  {
+    "id": "rice-basmati",
+    "name": "Rice — Basmati",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 115,
+    "sellingPrice": 135,
+    "nameTe": "బియ్యం — బాస్మతి"
+  },
+  {
+    "id": "atta",
+    "name": "Wheat flour (Atta)",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 42,
+    "sellingPrice": 48,
+    "nameTe": "గోధుమ పిండి"
+  },
+  {
+    "id": "rice-flour",
+    "name": "Rice flour",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 48,
+    "sellingPrice": 56,
+    "nameTe": "బియ్యపు పిండి"
+  },
+  {
+    "id": "poha",
+    "name": "Poha",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 50,
+    "sellingPrice": 60,
+    "nameTe": "అటుకులు"
+  },
+  {
+    "id": "rava",
+    "name": "Rava (Sooji)",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 46,
+    "sellingPrice": 54,
+    "nameTe": "రవ్వ"
+  },
+  {
+    "id": "maida",
+    "name": "Maida",
+    "category": "Grains",
+    "unit": "kg",
+    "basePrice": 40,
+    "sellingPrice": 48,
+    "nameTe": "మైదా"
+  },
+  {
+    "id": "vermicelli",
+    "name": "Vermicelli",
+    "category": "Grains",
+    "unit": "500 g",
+    "basePrice": 32,
+    "sellingPrice": 40,
+    "nameTe": "సేమియా"
+  },
+  {
+    "id": "toor-dal",
+    "name": "Toor dal",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 145,
+    "sellingPrice": 165,
+    "nameTe": "కందిపప్పు"
+  },
+  {
+    "id": "moong-dal",
+    "name": "Moong dal",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 120,
+    "sellingPrice": 140,
+    "nameTe": "పెసరపప్పు"
+  },
+  {
+    "id": "chana-dal",
+    "name": "Chana dal",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 92,
+    "sellingPrice": 108,
+    "nameTe": "శనగపప్పు"
+  },
+  {
+    "id": "urad-dal",
+    "name": "Urad dal",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 135,
+    "sellingPrice": 155,
+    "nameTe": "మినపపప్పు"
+  },
+  {
+    "id": "masoor-dal",
+    "name": "Masoor dal",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 98,
+    "sellingPrice": 115,
+    "nameTe": "మసూర్ పప్పు"
+  },
+  {
+    "id": "besan",
+    "name": "Besan",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 90,
+    "sellingPrice": 108,
+    "nameTe": "శనగపిండి"
+  },
+  {
+    "id": "kabuli-chana",
+    "name": "Kabuli chana",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 105,
+    "sellingPrice": 125,
+    "nameTe": "కాబూలి శనగలు"
+  },
+  {
+    "id": "green-moong",
+    "name": "Green moong",
+    "category": "Pulses",
+    "unit": "kg",
+    "basePrice": 112,
+    "sellingPrice": 130,
+    "nameTe": "పెసలు"
+  },
+  {
+    "id": "sunflower-oil",
+    "name": "Sunflower oil",
+    "category": "Oil and ghee",
+    "unit": "litre",
+    "basePrice": 145,
+    "sellingPrice": 165,
+    "nameTe": "పొద్దుతిరుగుడు నూనె"
+  },
+  {
+    "id": "groundnut-oil",
+    "name": "Groundnut oil",
+    "category": "Oil and ghee",
+    "unit": "litre",
+    "basePrice": 180,
+    "sellingPrice": 205,
+    "nameTe": "వేరుశెనగ నూనె"
+  },
+  {
+    "id": "mustard-oil",
+    "name": "Mustard oil",
+    "category": "Oil and ghee",
+    "unit": "litre",
+    "basePrice": 165,
+    "sellingPrice": 185,
+    "nameTe": "ఆవ నూనె"
+  },
+  {
+    "id": "coconut-oil",
+    "name": "Coconut oil",
+    "category": "Oil and ghee",
+    "unit": "500 ml",
+    "basePrice": 98,
+    "sellingPrice": 120,
+    "nameTe": "కొబ్బరి నూనె"
+  },
+  {
+    "id": "ghee",
+    "name": "Ghee",
+    "category": "Oil and ghee",
+    "unit": "500 ml",
+    "basePrice": 290,
+    "sellingPrice": 330,
+    "nameTe": "నెయ్యి"
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric powder",
+    "category": "Spices and staples",
+    "unit": "100 g",
+    "basePrice": 28,
+    "sellingPrice": 36,
+    "nameTe": "పసుపు"
+  },
+  {
+    "id": "chilli-powder",
+    "name": "Chilli powder",
+    "category": "Spices and staples",
+    "unit": "100 g",
+    "basePrice": 34,
+    "sellingPrice": 42,
+    "nameTe": "మిరప పొడి"
+  },
+  {
+    "id": "coriander-powder",
+    "name": "Coriander powder",
+    "category": "Spices and staples",
+    "unit": "100 g",
+    "basePrice": 24,
+    "sellingPrice": 32,
+    "nameTe": "ధనియాల పొడి"
+  },
+  {
+    "id": "garam-masala",
+    "name": "Garam masala",
+    "category": "Spices and staples",
+    "unit": "50 g",
+    "basePrice": 32,
+    "sellingPrice": 42,
+    "nameTe": "గరం మసాలా"
+  },
+  {
+    "id": "jeera",
+    "name": "Cumin seeds (Jeera)",
+    "category": "Spices and staples",
+    "unit": "100 g",
+    "basePrice": 48,
+    "sellingPrice": 58,
+    "nameTe": "జీలకర్ర"
+  },
+  {
+    "id": "mustard-seeds",
+    "name": "Mustard seeds",
+    "category": "Spices and staples",
+    "unit": "100 g",
+    "basePrice": 14,
+    "sellingPrice": 20,
+    "nameTe": "ఆవాలు"
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "category": "Spices and staples",
+    "unit": "kg",
+    "basePrice": 18,
+    "sellingPrice": 24,
+    "nameTe": "ఉప్పు"
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "category": "Spices and staples",
+    "unit": "kg",
+    "basePrice": 44,
+    "sellingPrice": 50,
+    "nameTe": "పంచదార"
+  },
+  {
+    "id": "jaggery",
+    "name": "Jaggery",
+    "category": "Spices and staples",
+    "unit": "kg",
+    "basePrice": 55,
+    "sellingPrice": 68,
+    "nameTe": "బెల్లం"
+  },
+  {
+    "id": "tea",
+    "name": "Tea dust",
+    "category": "Packaged grocery",
+    "unit": "250 g",
+    "basePrice": 72,
+    "sellingPrice": 88,
+    "nameTe": "టీ పొడి"
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee powder",
+    "category": "Packaged grocery",
+    "unit": "200 g",
+    "basePrice": 98,
+    "sellingPrice": 120,
+    "nameTe": "కాఫీ పొడి"
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "category": "Packaged grocery",
+    "unit": "500 ml",
+    "basePrice": 26,
+    "sellingPrice": 30,
+    "nameTe": "పాలు"
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "category": "Packaged grocery",
+    "unit": "pack",
+    "basePrice": 40,
+    "sellingPrice": 45,
+    "nameTe": "బ్రెడ్"
+  },
+  {
+    "id": "eggs",
+    "name": "Eggs",
+    "category": "Packaged grocery",
+    "unit": "dozen",
+    "basePrice": 72,
+    "sellingPrice": 84,
+    "nameTe": "గుడ్లు"
+  },
+  {
+    "id": "biscuits",
+    "name": "Glucose biscuits",
+    "category": "Packaged grocery",
+    "unit": "pack",
+    "basePrice": 8,
+    "sellingPrice": 10,
+    "nameTe": "బిస్కెట్లు"
+  },
+  {
+    "id": "noodles",
+    "name": "Instant noodles",
+    "category": "Packaged grocery",
+    "unit": "pack",
+    "basePrice": 12,
+    "sellingPrice": 15,
+    "nameTe": "నూడుల్స్"
+  },
+  {
+    "id": "soap",
+    "name": "Bath soap",
+    "category": "Household",
+    "unit": "piece",
+    "basePrice": 28,
+    "sellingPrice": 36,
+    "nameTe": "స్నానపు సబ్బు"
+  },
+  {
+    "id": "detergent",
+    "name": "Detergent powder",
+    "category": "Household",
+    "unit": "kg",
+    "basePrice": 72,
+    "sellingPrice": 88,
+    "nameTe": "డిటర్జెంట్ పొడి"
+  },
+  {
+    "id": "dishwash",
+    "name": "Dishwash bar",
+    "category": "Household",
+    "unit": "piece",
+    "basePrice": 10,
+    "sellingPrice": 15,
+    "nameTe": "పాత్రల సబ్బు"
+  },
+  {
+    "id": "toothpaste",
+    "name": "Toothpaste",
+    "category": "Household",
+    "unit": "piece",
+    "basePrice": 58,
+    "sellingPrice": 72,
+    "nameTe": "పళ్ళ పేస్ట్"
+  },
+  {
+    "id": "washing-soap",
+    "name": "Washing soap",
+    "category": "Household",
+    "unit": "piece",
+    "basePrice": 20,
+    "sellingPrice": 26,
+    "nameTe": "బట్టల సబ్బు"
+  }
+]

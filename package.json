@@ -1,0 +1,9 @@
+{
+  "name": "my-shop",
+  "private": true,
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "shop": "npm start --prefix backend",
+    "postinstall": "npm install --prefix backend"
+  }
+}

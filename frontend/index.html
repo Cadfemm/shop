@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#16352b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>My Shop — Item rates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p class="eyebrow">My Shop</p>
+      <h1>Item rates</h1>
+      <p class="lede">One list. Search in English or Telugu, add an item, or edit the prices.</p>
+    </header>
+
+    <div class="toolbar">
+      <div class="search">
+        <label class="sr-only" for="search">Search items</label>
+        <input
+          id="search"
+          type="search"
+          lang="te"
+          placeholder="Search onion, ఉల్లిపాయ, నూనె…"
+          enterkeyhint="search"
+          autocomplete="off"
+        />
+        <button id="clear" type="button" hidden>Clear</button>
+      </div>
+      <p id="status" class="status">Loading items…</p>
+      <p id="error" class="error" hidden role="alert"></p>
+    </div>
+
+    <div class="sheet-scroll">
+      <form id="add-form"></form>
+      <table>
+        <thead>
+          <tr>
+            <th>Item name</th>
+            <th>Quantity</th>
+            <th class="num">Base price</th>
+            <th class="num">Selling price</th>
+            <th>Edit prices</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="add-row">
+            <td>
+              <input form="add-form" name="name" lang="te" placeholder="New item" autocomplete="off" aria-label="New item name" />
+              <input form="add-form" name="nameTe" lang="te" placeholder="తెలుగు పేరు" autocomplete="off" aria-label="Telugu item name" />
+            </td>
+            <td>
+              <input form="add-form" name="quantity" placeholder="1 kg" autocomplete="off" aria-label="Quantity" />
+            </td>
+            <td>
+              <input form="add-form" name="basePrice" inputmode="decimal" placeholder="0" autocomplete="off" aria-label="Base price" />
+            </td>
+            <td>
+              <input form="add-form" name="sellingPrice" inputmode="decimal" placeholder="0" autocomplete="off" aria-label="Selling price" />
+            </td>
+            <td>
+              <button form="add-form" type="submit">Add item</button>
+            </td>
+          </tr>
+        </tbody>
+        <tbody id="list"></tbody>
+      </table>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
